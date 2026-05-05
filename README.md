@@ -28,12 +28,13 @@ A simple REST API built with ASP.NET Core to manage tasks.
 This project was built to practice backend development using C# and .NET.
 
 
+
 ## Screenshots
 
 ### Swagger UI
-![Swagger UI](images/swagger.png)
+![Swagger UI](./images/swagger.png)
 
 ### API Test
-![API Test](images/api-test.png)
+![API Test](./images/api-test.png)
 
 
