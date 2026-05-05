@@ -31,9 +31,9 @@ This project was built to practice backend development using C# and .NET.
 ## Screenshots
 
 ### Swagger UI
-![Swagger UI]("C:\Users\musta\.nuget\Untitled.png")
+![Swagger UI]("C:/Users/musta/.nuget/Untitled.png")
 
 ### API Test
-![API Test]("C:\Users\musta\.nuget\UntitledXXX.png")
+![API Test]("C:/Users/musta/.nuget/UntitledXXX.png")
 
 
