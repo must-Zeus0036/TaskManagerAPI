@@ -32,9 +32,8 @@ This project was built to practice backend development using C# and .NET.
 ## Screenshots
 
 ### Swagger UI
-![Swagger UI](./images/swagger.png)
+![Swagger UI](./images/Untitled.png)
 
 ### API Test
-![API Test](./images/api-test.png)
-
+![API Test](./images/UntitledXXX.png)
 
