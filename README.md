@@ -1,31 +1,49 @@
-**Task Manager API (.NET)**
-A modern, high-performance REST API built with ASP.NET Core to manage daily tasks. This project demonstrates clean coding practices, Object-Oriented Programming (OOP) principles inherited from a Java background, and professional API documentation.
+# Task Manager API (C# / .NET)
 
-**Technologies**
-**Language: C#**
+A simple REST API built with ASP.NET Core to manage tasks.
 
-Framework: .NET 8 / ASP.NET Core (Minimal APIs)
+---
 
-Documentation: Swagger / OpenAPI (via Swashbuckle)
+##  Features
+- Get all tasks
+- Create a new task
+- Update task status
+- Delete a task
 
-Data Structure: C# Generics (List<TaskItem>) for in-memory storage
+---
 
-**Key Features**
-Full CRUD Operations: Create, Read, Update, and Delete tasks.
+##  Technologies
+- C#
+- .NET / ASP.NET Core
+- Swagger (API testing)
 
-Type Safety: Uses a dedicated TaskItem class to ensure data integrity.
+---
 
-Interactive Documentation: Integrated Swagger UI for real-time testing and endpoint exploration.
+##  How to Run
+1. Clone the repository
+2. Open in Visual Studio
+3. Run the project (F5)
+4. Open Swagger:
+5. https://localhost:7145/swagger
+   
+---
 
-Modern C# Standards: Implements nullable reference types and clean dependency injection.
+## 📡 API Endpoints
 
-**Project Structure**
-Program.cs: The entry point containing the API routing logic and service configuration.
+| Method | Endpoint        | Description        |
+|--------|---------------|--------------------|
+| GET    | /tasks        | Get all tasks      |
+| POST   | /tasks        | Create new task    |
+| PUT    | /tasks/{id}   | Update a task      |
+| DELETE | /tasks/{id}   | Delete a task      |
 
-TaskItem.cs: The data model representing the task object.
+---
 
-**Getting Started**
-Prerequisites
-.NET 8 SDK
+##  Example JSON
 
-Visual Studio 2022 (or VS Code)
+### Create Task
+```json
+{
+  "title": "Learn C#",
+  "isDone": false
+}
